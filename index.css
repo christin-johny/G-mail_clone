@@ -1,0 +1,231 @@
+ {
+  margin: 0;
+  padding: 0;
+}
+
+.header-icon {
+  height: 30px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.header-img {
+  object-fit: contain;
+  height: 30px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid whitesmoke;
+}
+.gmail {
+  font-size: 35px;
+  color: #666666;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.header_left {
+  display: flex;
+  align-items: center;
+}
+
+.header_middle {
+  display: flex;
+  display: flex;
+  flex: 0.7;
+  height: 30px;
+  align-items: center;
+  background-color: whitesmoke;
+  padding: 10px;
+  border-radius: 15px;
+}
+.header_middle input {
+  border: none;
+  width: 100%;
+  padding: 10px;
+  font-size: medium;
+  background-color: transparent;
+}
+.header_right {
+  display: flex;
+  padding-right: 20px;
+}
+
+.sidebar {
+  flex: 0.3;
+  max-width: 300px;
+  padding-right: 0px;
+}
+
+.sidebar_add {
+  height: 25px;
+  width: 25px;
+  margin: 0px;
+}
+
+.sidebar_button {
+  height: 50px;
+  width: 120px;
+  margin-top: 15px;
+  margin-left: 5px;
+  margin-bottom: 15px;
+  color: black;
+  padding: 15px;
+  border-radius: 30px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  cursor: pointer;
+  outline: none;
+}
+
+.sidebar_icon {
+  margin-right: 5px;
+  height: 20px;
+  width: 20px;
+}
+.sidebaroption {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 0px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  cursor: pointer;
+}
+.sidebar_footericons {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+.footer_icon {
+  cursor: pointer;
+  margin-left: 20px;
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+}
+.sidebaroption:hover,
+.sidebar_button:hover,
+.header-icon:hover,
+.header_middle:hover,
+.footer_icon:hover {
+  background-color: #e2e0e0;
+}
+
+.main_body {
+  display: flex;
+  height: 100vh;
+}
+.emaillist {
+  flex: 1;
+}
+.emaillist_settings_icon {
+  margin-right: 5px;
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+}
+.emaillist_settings {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid whitesmoke;
+  background-color: white;
+  padding: 8px;
+}
+.emaillist_settingsright span {
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.emaillist_settings_icon:hover,
+.emaillist_settingsright span:hover {
+  background-color: #e2e0e0;
+}
+
+.section_topicons {
+  margin-right: 5px;
+  height: 20px;
+  width: 20px;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  border-bottom-width: 2px;
+  min-width: 150px;
+  cursor: pointer;
+  border-width: 0;
+  border-bottom: 1px solid whitesmoke;
+}
+.emaillist_sections {
+  top: 0;
+  display: flex;
+}
+.section:hover {
+  background-color: whitesmoke;
+}
+
+.emailrow_icons,
+.emailrow_options input {
+  margin-right: 5px;
+  height: 20px;
+  width: 20px;
+}
+.emailrow_options input {
+  margin-right: 5px;
+  height: 15px;
+  width: 15px;
+}
+.emailrow_options {
+  display: flex;
+  align-items: center;
+}
+
+.emailrow {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  border-bottom: 1px solid whitesmoke;
+  cursor: pointer;
+  z-index: 999;
+}
+.emailrow:hover {
+  border-top: 1px solid whitesmoke;
+}
+.emailrow_message {
+    display: flex;
+    flex:0.8;
+    align-items: center;
+    font-size: 14px;
+}
+.emailrow_message h4{
+    width: 400px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+.emailrow_describtion{
+    font-weight: 400;
+    
+}
+.emailrow_title{
+    font-size: 16px;
+    flex:0.3
+}
+.emailrow_time{
+    width: 100px;
+    padding-right: 15px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
